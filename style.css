@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+
+}
+
+#main {
+    display: grid;
+    grid-gap: 0.1px;
+    grid-template-columns: repeat(auto-fill, minmax(rgb(255, 0, 0);px, 3fr));
+  }
+
+
+
+  }
+
+  .item img {
+    border: thin solid black;
+    border-radius: 1em;
+    background-color: grey;
+
+  }
+
+  .Texto {
+    padding: 0.5em;
+  }
+
+  .Arcos {
+    padding: 0.5em;
+  }
+
+  .item:hover{
+     box-shadow: 10px 10px 5px grey;}
